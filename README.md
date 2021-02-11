@@ -14,7 +14,9 @@ Simple concrete structures calculator with GUI
 
 ## Reference
 ACI 318-19
+
 SNI 2847-2013
+
 SNI 2847-2019
 
 ## Author
