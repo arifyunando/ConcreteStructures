@@ -1,6 +1,9 @@
 # Parahyangan ConcreteStructures
-> created by [Arif Yunando](arifyunando@gmail.com)
-Simple concrete structures calculator with GUI
+> created by [Arif Yunando]
+
+Simple concrete structures calculator with GUI.
+
+
 ### Features
 * Beam Calculator (somewhat operational)
 * P-M Diagram (under construction)
