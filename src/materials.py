@@ -18,7 +18,7 @@ class concrete(materials):
        self.modulus = 4700*np.sqrt(fc)*1_000_000
     
     @property
-    def b1_factor():
+    def b1_factor(self):
         b1 = 0.85 if self.yield_stress < 27 else 0.65 if self.yield_stress > 55 else 0.85-0.05*(self.yield_stress-27)/7
         return b1
         
