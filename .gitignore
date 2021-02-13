@@ -1,0 +1,5 @@
+#python compilation cache files
+**\__pycache__
+
+#virtual environment
+env\
