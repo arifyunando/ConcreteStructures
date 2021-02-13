@@ -19,7 +19,8 @@ class concrete(materials):
     
     @property
     def b1_factor():
-        return 
+        b1 = 0.85 if self.yield_stress < 27 else 0.65 if self.yield_stress > 55 else 0.85-0.05*(self.yield_stress-27)/7
+        return b1
         
 class steel(materials):
     def __init__(self,fu, fy):

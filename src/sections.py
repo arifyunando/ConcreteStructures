@@ -60,6 +60,11 @@ class rectangleSection(sections):
     def CTdistance(self, rebarCenterOfMass):
         return (self.H - self.cover - rebarCenterOfMass)
 
+class circularSection(sections):
+    pass
+
+class TSection(sections):
+    pass
 
 
 
