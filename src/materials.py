@@ -16,6 +16,10 @@ class concrete(materials):
        self.ultimate_stress = fc
        self.strain_u = 0.003
        self.modulus = 4700*np.sqrt(fc)*1_000_000
+    
+    @property
+    def b1_factor():
+        return 
         
 class steel(materials):
     def __init__(self,fu, fy):
