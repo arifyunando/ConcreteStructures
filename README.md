@@ -1,4 +1,4 @@
-# Parahyangan ConcreteStructures
+# ConcreteStructures
 > created by [Arif Yunando]
 
 Simple concrete structures calculator with GUI.
